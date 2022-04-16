@@ -1,0 +1,104 @@
+
+
+.fullCard {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px 10px;
+    padding: 20px;
+    /*width: 12rem;*/
+    width: 200px;
+    
+}
+
+.cardConent {
+    padding: 10px;
+    
+    
+}
+
+a {
+    color:blue
+}
+
+a:hover {
+    color:red;
+}
+
+.links {
+    margin-right: 10px;
+    
+}
+
+h4 {
+    text-align: center;
+    height: 10px;
+    background-color: rgba(45, 45, 45, 0.1);
+    padding: 20px;
+    font-size: 20px;
+}
+
+p {
+    text-align: justify;
+    line-height: 25px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+u {
+    text-decoration: underline;
+}
+
+em {
+    font-style: italic;
+}
+
+h5 {
+    text-align: center;
+    position: relative;
+    top: 10px
+}
+.fullCard2 {
+
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 20px 10px;
+    padding: 20px;
+    /*width: 12rem;*/
+    width: 200px;
+}
+
+
+.search {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+/* s {
+    text-decoration: line-through;
+} */
+
+
+#thumbnail {
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#box-shadow {
+
+    box-shadow: 0 15px 25px rgba(0,0,0,0.30), 0 10px 10px rgba(0,0,0,0.30);
+
+}
+
+#Opacity-box {
+    box-shadow: 0 15px 25px rgba(0,0,0,0.30), 0 10px 10px rgba(0,0,0,0.30);
+
+}
+
+#position {
+    box-shadow: 0 15px 25px rgba(0,0,0,0.30), 0 10px 10px rgba(0,0,0,0.30);
+}
+
+

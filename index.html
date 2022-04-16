@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="">
+        <div class="">
+
+        
+            <div class="fullCard" id="thumbnail">
+
+                <div class="cardContent">
+                    <div class="cardText">
+                        <h4><s>Google</s>YouTube</h4>
+                        <hr>
+                        <p>Google was founded by <em>Larry Page and Sergey Brin</em>while they 
+                        were <u>Ph.D. students</u> at <strong>Stanford University</strong>.</p>
+                    </div>
+
+                    <div class="cardLinks">
+                        <a href="https://en.wikipedia.org/wiki/Larry_Page" target="_blank" 
+                        class="links">Larry Page</a>
+                        <a href="https://en.wikipedia.org/wiki/Sergey_Brin" target="_blank" 
+                        class="links">Sergey Brin</a>
+                    </div>
+                </div>
+            </div>
+
+        
+            <div class="fullCard" id="box-shadow">
+
+                <div class="text-box">
+
+                    <h5>Box-Shadow</h5>
+
+                    <p class="text">The box-shadow property applies one or more shadows to an element.</p>
+
+                    <ul>
+                        <li>offset-x (how far to push the shadow horizontally from the</li>
+                        <li>offset-y (how far to push the shadow vertically from the element)</li>
+                        <li>blur-radius</li>
+                        <li>spread-radius</li>
+                        <li>color</li>
+                    </ul>
+
+                        <p>The blur-radius and spread-radius values are optional.
+                        Example: box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+                        </p>
+
+
+                </div>
+            </div>
+
+            <div class="fullCard" id="Opacity-box">
+                <div class="card">
+
+                        <p>Decrease the Opacity of an Element
+                        The opacity property in CSS is used to adjust the opacity, or conversely, the transparency for an item.
+
+                        A value of 1 is opaque, which isn't transparent at all.
+                        A value of 0.5 is half see-through.
+                        A value of 0 is completely transparent.</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="fullCard2" id="position">
+        <div class="lock">
+            <h5>Lock an Element to its Parent with Absolute Positioning </h5>
+            <p>
+                CSS position property is <strong>absolute, which locks the element in 
+                place relative to its parent container</strong>. Unlike the relative position, 
+                this removes the element from the normal flow of the document, so surrounding
+                items ignore it. The CSS offset properties (top or bottom and left or right) 
+                are used to adjust the position.
+
+                One nuance with absolute positioning is that it will be locked relative to 
+                its closest positioned ancestor. If you forget to add a position rule to the 
+                parent item, (this is typically done using position: relative;), the browser 
+                will keep looking up the chain and ultimately default to the body tag.
+                        <br> <br> <hr>
+                    <span>Fixed Position</span>
+                One key difference between the fixed and absolute positions is that an 
+                element with a fixed position won't move when the user scrolls.
+
+                position: fixed;
+                top:0px;
+                left: 0px
+            
+            
+            </p>
+
+
+        </div>
+        <section>
+            
+            <div class="search">
+                <form id="searchbar">
+                <label for="search">Search:</label>
+                <input type="search" id="search" name="search">
+                <input type="submit" name="submit" value="Go!">
+                </form>
+            </div>
+        </section>
+
+
+    </section>
+</body>
+</html>
